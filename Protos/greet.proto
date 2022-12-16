@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "Protos";
+
+package greet;
+
+// The greeting service definition.
+service Quadratic {
+  // Sends a greeting
+  rpc FindRoot (RootRequest) returns (RootResponse);
+}
+
+// The request message containing the user's name.
+message RootRequest {
+  double a = 1;
+  double b = 2;
+  double c = 3;
+}
+
+// The response message containing the greetings.
+message RootResponse {
+  double y = 1;
+  double z = 2;
+}

@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "greet.Quadratic.FindRoot"
+  },
+  "requests": [
+    {
+      "location": "FindRoot-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}
